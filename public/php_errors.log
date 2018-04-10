@@ -1,0 +1,29 @@
+[09-Apr-2018 17:58:10 Asia/Shanghai] PHP Warning:  Module 'mcrypt' already loaded in Unknown on line 0
+[09-Apr-2018 17:58:10 Asia/Shanghai] PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[09-Apr-2018 10:16:53 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/xinjiahui/Laravel/LearnLaravel/app/Http/Controllers/StaticPagesController.php on line 26
+[09-Apr-2018 10:16:53 UTC] PHP Stack trace:
+[09-Apr-2018 10:16:53 UTC] PHP   1. {main}() /home/xinjiahui/Laravel/LearnLaravel/public/index.php:0
+[09-Apr-2018 10:16:53 UTC] PHP   2. Illuminate\Foundation\Http\Kernel->handle() /home/xinjiahui/Laravel/LearnLaravel/public/index.php:54
+[09-Apr-2018 10:16:53 UTC] PHP   3. Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:99
+[09-Apr-2018 10:16:53 UTC] PHP   4. Illuminate\Pipeline\Pipeline->then() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:132
+[09-Apr-2018 10:16:53 UTC] PHP   5. call_user_func:{/home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+[09-Apr-2018 10:16:53 UTC] PHP   6. Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+[09-Apr-2018 10:16:53 UTC] PHP   7. call_user_func:{/home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:32}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:32
+[09-Apr-2018 10:16:53 UTC] PHP   8. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:32
+[09-Apr-2018 10:16:53 UTC] PHP   9. call_user_func_array:{/home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:136}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:136
+[09-Apr-2018 10:16:53 UTC] PHP  10. Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:136
+[09-Apr-2018 10:16:53 UTC] PHP  11. Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php:44
+[09-Apr-2018 10:16:53 UTC] PHP  12. call_user_func:{/home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:52}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:52
+[09-Apr-2018 10:16:53 UTC] PHP  13. Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:52
+[09-Apr-2018 10:16:53 UTC] PHP  14. Illuminate\Routing\Router->dispatch() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:246
+[09-Apr-2018 10:16:53 UTC] PHP  15. Illuminate\Routing\Router->dispatchToRoute() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:675
+[09-Apr-2018 10:16:53 UTC] PHP  16. Illuminate\Routing\Router->findRoute() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:691
+[09-Apr-2018 10:16:53 UTC] PHP  17. Illuminate\Routing\Router->substituteBindings() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:825
+[09-Apr-2018 10:16:53 UTC] PHP  18. Illuminate\Routing\Router->substituteImplicitBindings() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:842
+[09-Apr-2018 10:16:53 UTC] PHP  19. Illuminate\Routing\Route->signatureParameters() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:857
+[09-Apr-2018 10:16:53 UTC] PHP  20. ReflectionMethod->__construct() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php:280
+[09-Apr-2018 10:16:53 UTC] PHP  21. spl_autoload_call() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php:280
+[09-Apr-2018 10:16:53 UTC] PHP  22. Composer\Autoload\ClassLoader->loadClass() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php:280
+[09-Apr-2018 10:16:53 UTC] PHP  23. Composer\Autoload\includeFile() /home/xinjiahui/Laravel/LearnLaravel/vendor/composer/ClassLoader.php:322
+[10-Apr-2018 09:13:32 Asia/Shanghai] PHP Warning:  Module 'mcrypt' already loaded in Unknown on line 0
+[10-Apr-2018 09:13:32 Asia/Shanghai] PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
