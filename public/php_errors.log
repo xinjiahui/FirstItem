@@ -27,3 +27,138 @@
 [09-Apr-2018 10:16:53 UTC] PHP  23. Composer\Autoload\includeFile() /home/xinjiahui/Laravel/LearnLaravel/vendor/composer/ClassLoader.php:322
 [10-Apr-2018 09:13:32 Asia/Shanghai] PHP Warning:  Module 'mcrypt' already loaded in Unknown on line 0
 [10-Apr-2018 09:13:32 Asia/Shanghai] PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[11-Apr-2018 15:38:41 Asia/Shanghai] PHP Notice:  Use of undefined constant hello - assumed 'hello' in /home/xinjiahui/Laravel/LearnLaravel/public/test.php on line 3
+[11-Apr-2018 15:38:41 Asia/Shanghai] PHP Stack trace:
+[11-Apr-2018 15:38:41 Asia/Shanghai] PHP   1. {main}() /home/xinjiahui/Laravel/LearnLaravel/public/test.php:0
+[11-Apr-2018 15:40:02 Asia/Shanghai] PHP Parse error:  syntax error, unexpected '$user' (T_VARIABLE), expecting ',' or ';' in /home/xinjiahui/Laravel/LearnLaravel/public/test.php on line 3
+[11-Apr-2018 15:40:17 Asia/Shanghai] PHP Parse error:  syntax error, unexpected '$user' (T_VARIABLE), expecting ',' or ';' in /home/xinjiahui/Laravel/LearnLaravel/public/test.php on line 3
+[11-Apr-2018 15:40:22 Asia/Shanghai] PHP Parse error:  syntax error, unexpected '$user' (T_VARIABLE), expecting ',' or ';' in /home/xinjiahui/Laravel/LearnLaravel/public/test.php on line 3
+[11-Apr-2018 15:40:58 Asia/Shanghai] PHP Fatal error:  Class 'App\Models\User\User' not found in /home/xinjiahui/Laravel/LearnLaravel/public/test.php on line 3
+[11-Apr-2018 15:40:58 Asia/Shanghai] PHP Stack trace:
+[11-Apr-2018 15:40:58 Asia/Shanghai] PHP   1. {main}() /home/xinjiahui/Laravel/LearnLaravel/public/test.php:0
+[11-Apr-2018 15:46:27 Asia/Shanghai] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/xinjiahui/Laravel/LearnLaravel/public/test.php on line 3
+[11-Apr-2018 07:51:04 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/xinjiahui/Laravel/LearnLaravel/app/Http/Controllers/UsersController.php on line 17
+[11-Apr-2018 07:51:04 UTC] PHP Stack trace:
+[11-Apr-2018 07:51:04 UTC] PHP   1. {main}() /home/xinjiahui/Laravel/LearnLaravel/public/index.php:0
+[11-Apr-2018 07:51:04 UTC] PHP   2. Illuminate\Foundation\Http\Kernel->handle() /home/xinjiahui/Laravel/LearnLaravel/public/index.php:54
+[11-Apr-2018 07:51:04 UTC] PHP   3. Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:99
+[11-Apr-2018 07:51:04 UTC] PHP   4. Illuminate\Pipeline\Pipeline->then() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:132
+[11-Apr-2018 07:51:04 UTC] PHP   5. call_user_func:{/home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+[11-Apr-2018 07:51:04 UTC] PHP   6. Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+[11-Apr-2018 07:51:04 UTC] PHP   7. call_user_func:{/home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:32}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:32
+[11-Apr-2018 07:51:04 UTC] PHP   8. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:32
+[11-Apr-2018 07:51:04 UTC] PHP   9. call_user_func_array:{/home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:136}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:136
+[11-Apr-2018 07:51:04 UTC] PHP  10. Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:136
+[11-Apr-2018 07:51:04 UTC] PHP  11. Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php:44
+[11-Apr-2018 07:51:04 UTC] PHP  12. call_user_func:{/home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:52}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:52
+[11-Apr-2018 07:51:04 UTC] PHP  13. Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:52
+[11-Apr-2018 07:51:04 UTC] PHP  14. Illuminate\Routing\Router->dispatch() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:246
+[11-Apr-2018 07:51:04 UTC] PHP  15. Illuminate\Routing\Router->dispatchToRoute() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:675
+[11-Apr-2018 07:51:04 UTC] PHP  16. Illuminate\Routing\Router->findRoute() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:691
+[11-Apr-2018 07:51:04 UTC] PHP  17. Illuminate\Routing\Router->substituteBindings() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:825
+[11-Apr-2018 07:51:04 UTC] PHP  18. Illuminate\Routing\Router->substituteImplicitBindings() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:842
+[11-Apr-2018 07:51:04 UTC] PHP  19. Illuminate\Routing\Route->signatureParameters() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:857
+[11-Apr-2018 07:51:04 UTC] PHP  20. ReflectionMethod->__construct() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php:280
+[11-Apr-2018 07:51:04 UTC] PHP  21. spl_autoload_call() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php:280
+[11-Apr-2018 07:51:04 UTC] PHP  22. Composer\Autoload\ClassLoader->loadClass() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php:280
+[11-Apr-2018 07:51:04 UTC] PHP  23. Composer\Autoload\includeFile() /home/xinjiahui/Laravel/LearnLaravel/vendor/composer/ClassLoader.php:322
+[11-Apr-2018 08:10:13 UTC] PHP Parse error:  syntax error, unexpected 'true' (T_STRING) in /home/xinjiahui/Laravel/LearnLaravel/app/Http/Controllers/UsersController.php on line 19
+[11-Apr-2018 08:10:13 UTC] PHP Stack trace:
+[11-Apr-2018 08:10:13 UTC] PHP   1. {main}() /home/xinjiahui/Laravel/LearnLaravel/public/index.php:0
+[11-Apr-2018 08:10:13 UTC] PHP   2. Illuminate\Foundation\Http\Kernel->handle() /home/xinjiahui/Laravel/LearnLaravel/public/index.php:54
+[11-Apr-2018 08:10:13 UTC] PHP   3. Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:99
+[11-Apr-2018 08:10:13 UTC] PHP   4. Illuminate\Pipeline\Pipeline->then() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:132
+[11-Apr-2018 08:10:13 UTC] PHP   5. call_user_func:{/home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+[11-Apr-2018 08:10:13 UTC] PHP   6. Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+[11-Apr-2018 08:10:13 UTC] PHP   7. call_user_func:{/home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:32}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:32
+[11-Apr-2018 08:10:13 UTC] PHP   8. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:32
+[11-Apr-2018 08:10:13 UTC] PHP   9. call_user_func_array:{/home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:136}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:136
+[11-Apr-2018 08:10:13 UTC] PHP  10. Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:136
+[11-Apr-2018 08:10:13 UTC] PHP  11. Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php:44
+[11-Apr-2018 08:10:13 UTC] PHP  12. call_user_func:{/home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:52}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:52
+[11-Apr-2018 08:10:13 UTC] PHP  13. Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:52
+[11-Apr-2018 08:10:13 UTC] PHP  14. Illuminate\Routing\Router->dispatch() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:246
+[11-Apr-2018 08:10:13 UTC] PHP  15. Illuminate\Routing\Router->dispatchToRoute() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:675
+[11-Apr-2018 08:10:13 UTC] PHP  16. Illuminate\Routing\Router->findRoute() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:691
+[11-Apr-2018 08:10:13 UTC] PHP  17. Illuminate\Routing\Router->substituteBindings() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:825
+[11-Apr-2018 08:10:13 UTC] PHP  18. Illuminate\Routing\Router->substituteImplicitBindings() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:842
+[11-Apr-2018 08:10:13 UTC] PHP  19. Illuminate\Routing\Route->signatureParameters() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:857
+[11-Apr-2018 08:10:13 UTC] PHP  20. ReflectionMethod->__construct() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php:280
+[11-Apr-2018 08:10:13 UTC] PHP  21. spl_autoload_call() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php:280
+[11-Apr-2018 08:10:13 UTC] PHP  22. Composer\Autoload\ClassLoader->loadClass() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php:280
+[11-Apr-2018 08:10:13 UTC] PHP  23. Composer\Autoload\includeFile() /home/xinjiahui/Laravel/LearnLaravel/vendor/composer/ClassLoader.php:322
+[11-Apr-2018 08:43:19 UTC] PHP Parse error:  syntax error, unexpected '"1"' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) in /home/xinjiahui/Laravel/LearnLaravel/app/Http/Controllers/UsersController.php on line 14
+[11-Apr-2018 08:43:19 UTC] PHP Stack trace:
+[11-Apr-2018 08:43:19 UTC] PHP   1. {main}() /home/xinjiahui/Laravel/LearnLaravel/public/index.php:0
+[11-Apr-2018 08:43:19 UTC] PHP   2. Illuminate\Foundation\Http\Kernel->handle() /home/xinjiahui/Laravel/LearnLaravel/public/index.php:54
+[11-Apr-2018 08:43:19 UTC] PHP   3. Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:99
+[11-Apr-2018 08:43:19 UTC] PHP   4. Illuminate\Pipeline\Pipeline->then() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:132
+[11-Apr-2018 08:43:19 UTC] PHP   5. call_user_func:{/home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+[11-Apr-2018 08:43:19 UTC] PHP   6. Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+[11-Apr-2018 08:43:19 UTC] PHP   7. call_user_func:{/home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:32}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:32
+[11-Apr-2018 08:43:19 UTC] PHP   8. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:32
+[11-Apr-2018 08:43:19 UTC] PHP   9. call_user_func_array:{/home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:136}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:136
+[11-Apr-2018 08:43:19 UTC] PHP  10. Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:136
+[11-Apr-2018 08:43:19 UTC] PHP  11. Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php:44
+[11-Apr-2018 08:43:19 UTC] PHP  12. call_user_func:{/home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:52}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:52
+[11-Apr-2018 08:43:19 UTC] PHP  13. Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:52
+[11-Apr-2018 08:43:19 UTC] PHP  14. Illuminate\Routing\Router->dispatch() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:246
+[11-Apr-2018 08:43:19 UTC] PHP  15. Illuminate\Routing\Router->dispatchToRoute() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:675
+[11-Apr-2018 08:43:19 UTC] PHP  16. Illuminate\Routing\Router->findRoute() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:691
+[11-Apr-2018 08:43:19 UTC] PHP  17. Illuminate\Routing\Router->substituteBindings() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:825
+[11-Apr-2018 08:43:19 UTC] PHP  18. Illuminate\Routing\Router->substituteImplicitBindings() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:842
+[11-Apr-2018 08:43:19 UTC] PHP  19. Illuminate\Routing\Route->signatureParameters() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:857
+[11-Apr-2018 08:43:19 UTC] PHP  20. ReflectionMethod->__construct() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php:280
+[11-Apr-2018 08:43:19 UTC] PHP  21. spl_autoload_call() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php:280
+[11-Apr-2018 08:43:19 UTC] PHP  22. Composer\Autoload\ClassLoader->loadClass() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php:280
+[11-Apr-2018 08:43:19 UTC] PHP  23. Composer\Autoload\includeFile() /home/xinjiahui/Laravel/LearnLaravel/vendor/composer/ClassLoader.php:322
+[11-Apr-2018 08:43:20 UTC] PHP Parse error:  syntax error, unexpected '"1"' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) in /home/xinjiahui/Laravel/LearnLaravel/app/Http/Controllers/UsersController.php on line 14
+[11-Apr-2018 08:43:20 UTC] PHP Stack trace:
+[11-Apr-2018 08:43:20 UTC] PHP   1. {main}() /home/xinjiahui/Laravel/LearnLaravel/public/index.php:0
+[11-Apr-2018 08:43:20 UTC] PHP   2. Illuminate\Foundation\Http\Kernel->handle() /home/xinjiahui/Laravel/LearnLaravel/public/index.php:54
+[11-Apr-2018 08:43:20 UTC] PHP   3. Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:99
+[11-Apr-2018 08:43:20 UTC] PHP   4. Illuminate\Pipeline\Pipeline->then() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:132
+[11-Apr-2018 08:43:20 UTC] PHP   5. call_user_func:{/home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+[11-Apr-2018 08:43:20 UTC] PHP   6. Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+[11-Apr-2018 08:43:20 UTC] PHP   7. call_user_func:{/home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:32}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:32
+[11-Apr-2018 08:43:20 UTC] PHP   8. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:32
+[11-Apr-2018 08:43:20 UTC] PHP   9. call_user_func_array:{/home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:136}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:136
+[11-Apr-2018 08:43:20 UTC] PHP  10. Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:136
+[11-Apr-2018 08:43:20 UTC] PHP  11. Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php:44
+[11-Apr-2018 08:43:20 UTC] PHP  12. call_user_func:{/home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:52}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:52
+[11-Apr-2018 08:43:20 UTC] PHP  13. Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:52
+[11-Apr-2018 08:43:20 UTC] PHP  14. Illuminate\Routing\Router->dispatch() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:246
+[11-Apr-2018 08:43:20 UTC] PHP  15. Illuminate\Routing\Router->dispatchToRoute() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:675
+[11-Apr-2018 08:43:20 UTC] PHP  16. Illuminate\Routing\Router->findRoute() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:691
+[11-Apr-2018 08:43:20 UTC] PHP  17. Illuminate\Routing\Router->substituteBindings() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:825
+[11-Apr-2018 08:43:20 UTC] PHP  18. Illuminate\Routing\Router->substituteImplicitBindings() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:842
+[11-Apr-2018 08:43:20 UTC] PHP  19. Illuminate\Routing\Route->signatureParameters() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:857
+[11-Apr-2018 08:43:20 UTC] PHP  20. ReflectionMethod->__construct() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php:280
+[11-Apr-2018 08:43:20 UTC] PHP  21. spl_autoload_call() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php:280
+[11-Apr-2018 08:43:20 UTC] PHP  22. Composer\Autoload\ClassLoader->loadClass() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php:280
+[11-Apr-2018 08:43:20 UTC] PHP  23. Composer\Autoload\includeFile() /home/xinjiahui/Laravel/LearnLaravel/vendor/composer/ClassLoader.php:322
+[11-Apr-2018 08:43:20 UTC] PHP Parse error:  syntax error, unexpected '"1"' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) in /home/xinjiahui/Laravel/LearnLaravel/app/Http/Controllers/UsersController.php on line 14
+[11-Apr-2018 08:43:20 UTC] PHP Stack trace:
+[11-Apr-2018 08:43:20 UTC] PHP   1. {main}() /home/xinjiahui/Laravel/LearnLaravel/public/index.php:0
+[11-Apr-2018 08:43:20 UTC] PHP   2. Illuminate\Foundation\Http\Kernel->handle() /home/xinjiahui/Laravel/LearnLaravel/public/index.php:54
+[11-Apr-2018 08:43:20 UTC] PHP   3. Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:99
+[11-Apr-2018 08:43:20 UTC] PHP   4. Illuminate\Pipeline\Pipeline->then() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:132
+[11-Apr-2018 08:43:20 UTC] PHP   5. call_user_func:{/home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+[11-Apr-2018 08:43:20 UTC] PHP   6. Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+[11-Apr-2018 08:43:20 UTC] PHP   7. call_user_func:{/home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:32}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:32
+[11-Apr-2018 08:43:20 UTC] PHP   8. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:32
+[11-Apr-2018 08:43:20 UTC] PHP   9. call_user_func_array:{/home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:136}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:136
+[11-Apr-2018 08:43:20 UTC] PHP  10. Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:136
+[11-Apr-2018 08:43:20 UTC] PHP  11. Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php:44
+[11-Apr-2018 08:43:20 UTC] PHP  12. call_user_func:{/home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:52}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:52
+[11-Apr-2018 08:43:20 UTC] PHP  13. Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:52
+[11-Apr-2018 08:43:20 UTC] PHP  14. Illuminate\Routing\Router->dispatch() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:246
+[11-Apr-2018 08:43:20 UTC] PHP  15. Illuminate\Routing\Router->dispatchToRoute() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:675
+[11-Apr-2018 08:43:20 UTC] PHP  16. Illuminate\Routing\Router->findRoute() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:691
+[11-Apr-2018 08:43:20 UTC] PHP  17. Illuminate\Routing\Router->substituteBindings() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:825
+[11-Apr-2018 08:43:20 UTC] PHP  18. Illuminate\Routing\Router->substituteImplicitBindings() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:842
+[11-Apr-2018 08:43:20 UTC] PHP  19. Illuminate\Routing\Route->signatureParameters() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:857
+[11-Apr-2018 08:43:20 UTC] PHP  20. ReflectionMethod->__construct() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php:280
+[11-Apr-2018 08:43:20 UTC] PHP  21. spl_autoload_call() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php:280
+[11-Apr-2018 08:43:20 UTC] PHP  22. Composer\Autoload\ClassLoader->loadClass() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php:280
+[11-Apr-2018 08:43:20 UTC] PHP  23. Composer\Autoload\includeFile() /home/xinjiahui/Laravel/LearnLaravel/vendor/composer/ClassLoader.php:322

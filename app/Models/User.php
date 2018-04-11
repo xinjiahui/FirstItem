@@ -11,7 +11,7 @@ class User extends Authenticatable
      *
      * @var array
      */
-    protected $table = 'laraveluser';
+    protected $table = 'users';
     protected $fillable = [
        'name', 'email', 'password',
     ];
@@ -26,7 +26,11 @@ class User extends Authenticatable
    ];
     public function gravatar($size = '100')
     {
+        error_log(print_r($this->attributes,true),3,"/tmp/xinjiahui.log");
         $hash = md5(strtolower(trim($this->attributes['email'])));
-        return "http://www.gravatar.com/avatar/$hash?s=$size";
+        #$hash = md5(strtolower("xinjiahuiqh@gmail.com"));
+
+        return "http://123.56.218.155/0068yAEFly8fl8kqzmb6nj30yi0yiq50.jpg/$hash?s=$size";
+        #return "http://www.gravatar.com/avatar/$hash?s=$size";
     }
 }

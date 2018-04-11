@@ -8501,3 +8501,19 @@ section.user_info h1 {
   border-radius: 50%;
 }
 
+input,
+textarea,
+select,
+.uneditable-input {
+  border: 1px solid #bbb;
+  margin-bottom: 15px;
+}
+
+input {
+  height: auto !important;
+}
+
+.panel {
+  margin-top: 50px;
+}
+
