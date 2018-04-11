@@ -11,19 +11,19 @@ class User extends Authenticatable
      *
      * @var array
      */
-#    protected $table = 'laraveluser';
-#    protected $fillable = [
- #       'name', 'email', 'password',
-  #  ];
+    protected $table = 'laraveluser';
+    protected $fillable = [
+       'name', 'email', 'password',
+    ];
 
     /**
      * The attributes that should be hidden for arrays.
      *
      * @var array
      */
-   # protected $hidden = [
-    #    'password', 'remember_token',
-    #];
+    protected $hidden = [
+       'password', 'remember_token',
+   ];
     public function gravatar($size = '100')
     {
         $hash = md5(strtolower(trim($this->attributes['email'])));
