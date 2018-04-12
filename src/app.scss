@@ -153,3 +153,9 @@ input {
 .panel {
   margin-top: 50px;
 }
+#logout {
+  cursor: default;
+  &:hover {
+    background-color: transparent;
+  }
+}

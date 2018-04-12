@@ -47,3 +47,9 @@ mix.js('src/app.js', 'dist/')
 //   uglify: {}, // Uglify-specific options. https://webpack.github.io/docs/list-of-plugins.html#uglifyjsplugin
 //   postCss: [] // Post-CSS options: https://github.com/postcss/postcss/blob/master/docs/plugins.md
 // });
+mix.autoload({
+    jquery: ['$', 'window.jQuery',"jQuery","window.$","jquery","window.jquery"]
+});
+mix.js([
+        'node_modules/bootstrap-sass/assets/javascripts/bootstrap.min.js'
+        ],'public/dist/bootstrap.min.js')
