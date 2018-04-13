@@ -1,0 +1,11 @@
+" ============================================================================
+" Netrw Directory Listing                                        (netrw v149)
+"   /home/xinjiahui/Laravel/LearnLaravel/app/Policies
+"   Sorted by time
+"   Quick Help: <F1>:help  -:go up dir  D:delete  R:rename  s:sort-by  x:exec
+" ============================================================================
+.gitkeep
+../
+UserPolicy.php
+./
+.swp
