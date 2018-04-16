@@ -19,7 +19,7 @@
           </div>
 
           <div class="form-group">
-            <label for="password">密码：</label>
+            <label for="password">密码(如果忘记密码，请你使劲想。不提供密码找回功能，哈哈。。。)：</label>
             <input type="password" name="password" class="form-control" value="{{ old('password') }}">
           </div>
 
