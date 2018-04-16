@@ -22,11 +22,11 @@ public function index()
     {
         return view('users.create');
     } 
-   public function show(User $user)
-    { 
-        error_log(print_r($user,true),3,"/tmp/xinjiahui.log");
-        return view('users.show', compact('user'));
-    }
+//   public function show(User $user)
+  //  { 
+    //    error_log(print_r($user,true),3,"/tmp/xinjiahui.log");
+      //  return view('users.show', compact('user'));
+//    }
 public function store(Request $request)
     {
         $this->validate($request, [
@@ -98,5 +98,12 @@ public function confirmEmail($token)
         Auth::login($user);
         session()->flash('success', '恭喜你，激活成功！');
         return redirect()->route('users.show', [$user]);
+    }
+public function show(User $user)
+    {
+        $statuses = $user->statuses()
+                           ->orderBy('created_at', 'desc')
+                           ->paginate(30);
+        return view('users.show', compact('user', 'statuses'));
     }
 }
