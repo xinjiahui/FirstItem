@@ -1,9 +1,9 @@
 <div class="col-md-12">
   <footer class="footer">
     <small class="slogon">
-      <img class="brand-icon" src="https://lccdn.phphub.org/uploads/images/201612/12/1/iq7WQc2iuW.png?imageView2/1/w/34/h/34">
-      <a href="https://laravel-china.org/courses">
-        刻意练习，每日精进
+      <img class="brand-icon" src="http://123.56.218.155/images.jpg">
+      <a href="https://weibo.com/u/5623251737">
+       作者微博 
       </a>
     </small>
     <nav>

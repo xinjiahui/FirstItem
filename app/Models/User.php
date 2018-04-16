@@ -26,7 +26,6 @@ class User extends Authenticatable
    ];
     public function gravatar($size = '100')
     {
-        error_log(print_r($this->attributes,true),3,"/tmp/xinjiahui.log");
         $hash = md5(strtolower(trim($this->attributes['email'])));
         #$hash = md5(strtolower("xinjiahuiqh@gmail.com"));
 
@@ -40,5 +39,9 @@ class User extends Authenticatable
         static::creating(function ($user) {
             $user->activation_token = str_random(30);
         });
+    }
+public function sendPasswordResetNotification($token)
+    {
+        $this->notify(new ResetPassword($token));
     }
 }

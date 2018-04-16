@@ -76,3 +76,133 @@
 [13-Apr-2018 14:30:01 Asia/Shanghai] PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
 [13-Apr-2018 14:32:14 Asia/Shanghai] PHP Warning:  Module 'mcrypt' already loaded in Unknown on line 0
 [13-Apr-2018 14:32:14 Asia/Shanghai] PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[13-Apr-2018 16:57:49 Asia/Shanghai] PHP Warning:  Module 'mcrypt' already loaded in Unknown on line 0
+[13-Apr-2018 16:57:49 Asia/Shanghai] PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[13-Apr-2018 18:14:04 Asia/Shanghai] PHP Warning:  Module 'mcrypt' already loaded in Unknown on line 0
+[13-Apr-2018 18:14:04 Asia/Shanghai] PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[13-Apr-2018 10:14:04 UTC] PHP Fatal error:  Class 'oute' not found in /home/xinjiahui/Laravel/LearnLaravel/app/Http/routes.php on line 28
+[13-Apr-2018 10:14:04 UTC] PHP Stack trace:
+[13-Apr-2018 10:14:04 UTC] PHP   1. {main}() /home/xinjiahui/Laravel/LearnLaravel/artisan:0
+[13-Apr-2018 10:14:04 UTC] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/xinjiahui/Laravel/LearnLaravel/artisan:36
+[13-Apr-2018 10:14:04 UTC] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[13-Apr-2018 10:14:04 UTC] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:219
+[13-Apr-2018 10:14:04 UTC] PHP   5. Illuminate\Foundation\Bootstrap\BootProviders->bootstrap() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[13-Apr-2018 10:14:04 UTC] PHP   6. Illuminate\Foundation\Application->boot() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php:17
+[13-Apr-2018 10:14:04 UTC] PHP   7. array_walk() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:741
+[13-Apr-2018 10:14:04 UTC] PHP   8. Illuminate\Foundation\Application->Illuminate\Foundation\{closure}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:741
+[13-Apr-2018 10:14:04 UTC] PHP   9. Illuminate\Foundation\Application->bootProvider() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:740
+[13-Apr-2018 10:14:04 UTC] PHP  10. Illuminate\Container\Container->call() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:757
+[13-Apr-2018 10:14:04 UTC] PHP  11. call_user_func_array:{/home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[13-Apr-2018 10:14:04 UTC] PHP  12. App\Providers\RouteServiceProvider->boot() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[13-Apr-2018 10:14:04 UTC] PHP  13. Illuminate\Foundation\Support\Providers\RouteServiceProvider->boot() /home/xinjiahui/Laravel/LearnLaravel/app/Providers/RouteServiceProvider.php:29
+[13-Apr-2018 10:14:04 UTC] PHP  14. Illuminate\Foundation\Support\Providers\RouteServiceProvider->loadRoutes() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php:31
+[13-Apr-2018 10:14:04 UTC] PHP  15. Illuminate\Container\Container->call() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php:72
+[13-Apr-2018 10:14:04 UTC] PHP  16. call_user_func_array:{/home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[13-Apr-2018 10:14:04 UTC] PHP  17. App\Providers\RouteServiceProvider->map() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[13-Apr-2018 10:14:04 UTC] PHP  18. App\Providers\RouteServiceProvider->mapWebRoutes() /home/xinjiahui/Laravel/LearnLaravel/app/Providers/RouteServiceProvider.php:40
+[13-Apr-2018 10:14:04 UTC] PHP  19. Illuminate\Routing\Router->group() /home/xinjiahui/Laravel/LearnLaravel/app/Providers/RouteServiceProvider.php:59
+[13-Apr-2018 10:14:04 UTC] PHP  20. call_user_func:{/home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:398}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:398
+[13-Apr-2018 10:14:04 UTC] PHP  21. App\Providers\RouteServiceProvider->App\Providers\{closure}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:398
+[13-Apr-2018 10:14:04 UTC] PHP  22. require() /home/xinjiahui/Laravel/LearnLaravel/app/Providers/RouteServiceProvider.php:58
+[13-Apr-2018 18:14:26 Asia/Shanghai] PHP Warning:  Module 'mcrypt' already loaded in Unknown on line 0
+[13-Apr-2018 18:14:26 Asia/Shanghai] PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[13-Apr-2018 10:14:26 UTC] PHP Fatal error:  Class 'oute' not found in /home/xinjiahui/Laravel/LearnLaravel/app/Http/routes.php on line 28
+[13-Apr-2018 10:14:26 UTC] PHP Stack trace:
+[13-Apr-2018 10:14:26 UTC] PHP   1. {main}() /home/xinjiahui/Laravel/LearnLaravel/artisan:0
+[13-Apr-2018 10:14:26 UTC] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/xinjiahui/Laravel/LearnLaravel/artisan:36
+[13-Apr-2018 10:14:26 UTC] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[13-Apr-2018 10:14:26 UTC] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:219
+[13-Apr-2018 10:14:26 UTC] PHP   5. Illuminate\Foundation\Bootstrap\BootProviders->bootstrap() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[13-Apr-2018 10:14:26 UTC] PHP   6. Illuminate\Foundation\Application->boot() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php:17
+[13-Apr-2018 10:14:26 UTC] PHP   7. array_walk() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:741
+[13-Apr-2018 10:14:26 UTC] PHP   8. Illuminate\Foundation\Application->Illuminate\Foundation\{closure}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:741
+[13-Apr-2018 10:14:26 UTC] PHP   9. Illuminate\Foundation\Application->bootProvider() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:740
+[13-Apr-2018 10:14:26 UTC] PHP  10. Illuminate\Container\Container->call() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:757
+[13-Apr-2018 10:14:26 UTC] PHP  11. call_user_func_array:{/home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[13-Apr-2018 10:14:26 UTC] PHP  12. App\Providers\RouteServiceProvider->boot() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[13-Apr-2018 10:14:26 UTC] PHP  13. Illuminate\Foundation\Support\Providers\RouteServiceProvider->boot() /home/xinjiahui/Laravel/LearnLaravel/app/Providers/RouteServiceProvider.php:29
+[13-Apr-2018 10:14:26 UTC] PHP  14. Illuminate\Foundation\Support\Providers\RouteServiceProvider->loadRoutes() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php:31
+[13-Apr-2018 10:14:26 UTC] PHP  15. Illuminate\Container\Container->call() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php:72
+[13-Apr-2018 10:14:26 UTC] PHP  16. call_user_func_array:{/home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[13-Apr-2018 10:14:26 UTC] PHP  17. App\Providers\RouteServiceProvider->map() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[13-Apr-2018 10:14:26 UTC] PHP  18. App\Providers\RouteServiceProvider->mapWebRoutes() /home/xinjiahui/Laravel/LearnLaravel/app/Providers/RouteServiceProvider.php:40
+[13-Apr-2018 10:14:26 UTC] PHP  19. Illuminate\Routing\Router->group() /home/xinjiahui/Laravel/LearnLaravel/app/Providers/RouteServiceProvider.php:59
+[13-Apr-2018 10:14:26 UTC] PHP  20. call_user_func:{/home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:398}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:398
+[13-Apr-2018 10:14:26 UTC] PHP  21. App\Providers\RouteServiceProvider->App\Providers\{closure}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:398
+[13-Apr-2018 10:14:26 UTC] PHP  22. require() /home/xinjiahui/Laravel/LearnLaravel/app/Providers/RouteServiceProvider.php:58
+[13-Apr-2018 18:14:52 Asia/Shanghai] PHP Warning:  Module 'mcrypt' already loaded in Unknown on line 0
+[13-Apr-2018 18:14:52 Asia/Shanghai] PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[13-Apr-2018 10:14:52 UTC] PHP Fatal error:  Class 'oute' not found in /home/xinjiahui/Laravel/LearnLaravel/app/Http/routes.php on line 28
+[13-Apr-2018 10:14:52 UTC] PHP Stack trace:
+[13-Apr-2018 10:14:52 UTC] PHP   1. {main}() /home/xinjiahui/Laravel/LearnLaravel/artisan:0
+[13-Apr-2018 10:14:52 UTC] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/xinjiahui/Laravel/LearnLaravel/artisan:36
+[13-Apr-2018 10:14:52 UTC] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[13-Apr-2018 10:14:52 UTC] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:219
+[13-Apr-2018 10:14:52 UTC] PHP   5. Illuminate\Foundation\Bootstrap\BootProviders->bootstrap() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[13-Apr-2018 10:14:52 UTC] PHP   6. Illuminate\Foundation\Application->boot() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php:17
+[13-Apr-2018 10:14:52 UTC] PHP   7. array_walk() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:741
+[13-Apr-2018 10:14:52 UTC] PHP   8. Illuminate\Foundation\Application->Illuminate\Foundation\{closure}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:741
+[13-Apr-2018 10:14:52 UTC] PHP   9. Illuminate\Foundation\Application->bootProvider() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:740
+[13-Apr-2018 10:14:52 UTC] PHP  10. Illuminate\Container\Container->call() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:757
+[13-Apr-2018 10:14:52 UTC] PHP  11. call_user_func_array:{/home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[13-Apr-2018 10:14:52 UTC] PHP  12. App\Providers\RouteServiceProvider->boot() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[13-Apr-2018 10:14:52 UTC] PHP  13. Illuminate\Foundation\Support\Providers\RouteServiceProvider->boot() /home/xinjiahui/Laravel/LearnLaravel/app/Providers/RouteServiceProvider.php:29
+[13-Apr-2018 10:14:52 UTC] PHP  14. Illuminate\Foundation\Support\Providers\RouteServiceProvider->loadRoutes() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php:31
+[13-Apr-2018 10:14:52 UTC] PHP  15. Illuminate\Container\Container->call() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php:72
+[13-Apr-2018 10:14:52 UTC] PHP  16. call_user_func_array:{/home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[13-Apr-2018 10:14:52 UTC] PHP  17. App\Providers\RouteServiceProvider->map() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[13-Apr-2018 10:14:52 UTC] PHP  18. App\Providers\RouteServiceProvider->mapWebRoutes() /home/xinjiahui/Laravel/LearnLaravel/app/Providers/RouteServiceProvider.php:40
+[13-Apr-2018 10:14:52 UTC] PHP  19. Illuminate\Routing\Router->group() /home/xinjiahui/Laravel/LearnLaravel/app/Providers/RouteServiceProvider.php:59
+[13-Apr-2018 10:14:52 UTC] PHP  20. call_user_func:{/home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:398}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:398
+[13-Apr-2018 10:14:52 UTC] PHP  21. App\Providers\RouteServiceProvider->App\Providers\{closure}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:398
+[13-Apr-2018 10:14:52 UTC] PHP  22. require() /home/xinjiahui/Laravel/LearnLaravel/app/Providers/RouteServiceProvider.php:58
+[13-Apr-2018 18:15:55 Asia/Shanghai] PHP Warning:  Module 'mcrypt' already loaded in Unknown on line 0
+[13-Apr-2018 18:15:55 Asia/Shanghai] PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[13-Apr-2018 10:15:55 UTC] PHP Fatal error:  Class 'oute' not found in /home/xinjiahui/Laravel/LearnLaravel/app/Http/routes.php on line 28
+[13-Apr-2018 10:15:55 UTC] PHP Stack trace:
+[13-Apr-2018 10:15:55 UTC] PHP   1. {main}() /home/xinjiahui/Laravel/LearnLaravel/artisan:0
+[13-Apr-2018 10:15:55 UTC] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/xinjiahui/Laravel/LearnLaravel/artisan:36
+[13-Apr-2018 10:15:55 UTC] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[13-Apr-2018 10:15:55 UTC] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:219
+[13-Apr-2018 10:15:55 UTC] PHP   5. Illuminate\Foundation\Bootstrap\BootProviders->bootstrap() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[13-Apr-2018 10:15:55 UTC] PHP   6. Illuminate\Foundation\Application->boot() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php:17
+[13-Apr-2018 10:15:55 UTC] PHP   7. array_walk() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:741
+[13-Apr-2018 10:15:55 UTC] PHP   8. Illuminate\Foundation\Application->Illuminate\Foundation\{closure}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:741
+[13-Apr-2018 10:15:55 UTC] PHP   9. Illuminate\Foundation\Application->bootProvider() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:740
+[13-Apr-2018 10:15:55 UTC] PHP  10. Illuminate\Container\Container->call() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:757
+[13-Apr-2018 10:15:55 UTC] PHP  11. call_user_func_array:{/home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[13-Apr-2018 10:15:55 UTC] PHP  12. App\Providers\RouteServiceProvider->boot() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[13-Apr-2018 10:15:55 UTC] PHP  13. Illuminate\Foundation\Support\Providers\RouteServiceProvider->boot() /home/xinjiahui/Laravel/LearnLaravel/app/Providers/RouteServiceProvider.php:29
+[13-Apr-2018 10:15:55 UTC] PHP  14. Illuminate\Foundation\Support\Providers\RouteServiceProvider->loadRoutes() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php:31
+[13-Apr-2018 10:15:55 UTC] PHP  15. Illuminate\Container\Container->call() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php:72
+[13-Apr-2018 10:15:55 UTC] PHP  16. call_user_func_array:{/home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[13-Apr-2018 10:15:55 UTC] PHP  17. App\Providers\RouteServiceProvider->map() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[13-Apr-2018 10:15:55 UTC] PHP  18. App\Providers\RouteServiceProvider->mapWebRoutes() /home/xinjiahui/Laravel/LearnLaravel/app/Providers/RouteServiceProvider.php:40
+[13-Apr-2018 10:15:55 UTC] PHP  19. Illuminate\Routing\Router->group() /home/xinjiahui/Laravel/LearnLaravel/app/Providers/RouteServiceProvider.php:59
+[13-Apr-2018 10:15:55 UTC] PHP  20. call_user_func:{/home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:398}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:398
+[13-Apr-2018 10:15:55 UTC] PHP  21. App\Providers\RouteServiceProvider->App\Providers\{closure}() /home/xinjiahui/Laravel/LearnLaravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:398
+[13-Apr-2018 10:15:55 UTC] PHP  22. require() /home/xinjiahui/Laravel/LearnLaravel/app/Providers/RouteServiceProvider.php:58
+[13-Apr-2018 18:17:23 Asia/Shanghai] PHP Warning:  Module 'mcrypt' already loaded in Unknown on line 0
+[13-Apr-2018 18:17:23 Asia/Shanghai] PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[13-Apr-2018 18:18:21 Asia/Shanghai] PHP Warning:  Module 'mcrypt' already loaded in Unknown on line 0
+[13-Apr-2018 18:18:21 Asia/Shanghai] PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[13-Apr-2018 18:18:21 Asia/Shanghai] PHP Warning:  Module 'mcrypt' already loaded in Unknown on line 0
+[13-Apr-2018 18:18:21 Asia/Shanghai] PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[13-Apr-2018 18:21:28 Asia/Shanghai] PHP Warning:  Module 'mcrypt' already loaded in Unknown on line 0
+[13-Apr-2018 18:21:28 Asia/Shanghai] PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[13-Apr-2018 18:21:28 Asia/Shanghai] PHP Warning:  Module 'mcrypt' already loaded in Unknown on line 0
+[13-Apr-2018 18:21:28 Asia/Shanghai] PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[13-Apr-2018 18:21:42 Asia/Shanghai] PHP Warning:  Module 'mcrypt' already loaded in Unknown on line 0
+[13-Apr-2018 18:21:42 Asia/Shanghai] PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[13-Apr-2018 18:22:15 Asia/Shanghai] PHP Warning:  Module 'mcrypt' already loaded in Unknown on line 0
+[13-Apr-2018 18:22:15 Asia/Shanghai] PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[13-Apr-2018 18:24:25 Asia/Shanghai] PHP Warning:  Module 'mcrypt' already loaded in Unknown on line 0
+[13-Apr-2018 18:24:25 Asia/Shanghai] PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[13-Apr-2018 18:30:20 Asia/Shanghai] PHP Warning:  Module 'mcrypt' already loaded in Unknown on line 0
+[13-Apr-2018 18:30:20 Asia/Shanghai] PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[13-Apr-2018 18:33:38 Asia/Shanghai] PHP Warning:  Module 'mcrypt' already loaded in Unknown on line 0
+[13-Apr-2018 18:33:38 Asia/Shanghai] PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[13-Apr-2018 18:37:34 Asia/Shanghai] PHP Warning:  Module 'mcrypt' already loaded in Unknown on line 0
+[13-Apr-2018 18:37:34 Asia/Shanghai] PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[13-Apr-2018 18:38:46 Asia/Shanghai] PHP Warning:  Module 'mcrypt' already loaded in Unknown on line 0
+[13-Apr-2018 18:38:46 Asia/Shanghai] PHP Warning:  Module 'openssl' already loaded in Unknown on line 0

@@ -4,6 +4,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Models\User;
 use Mail;
+use Auth;
 class UsersController extends Controller
 {
 public function __construct()
@@ -77,10 +78,10 @@ protected function sendEmailConfirmationTo($user)
     {
         $view = 'emails.confirm';
         $data = compact('user');
-        $from = 'aufree@yousails.com';
-        $name = 'Aufree';
+        $from = '1306236288@qq.com';
+        $name = 'AlisaXin';
         $to = $user->email;
-        $subject = "感谢注册 Sample 应用！请确认你的邮箱。";
+        $subject = "感谢注册 AlisaApp 应用！请确认你的邮箱。";
 
         Mail::send($view, $data, function ($message) use ($from, $name, $to, $subject) {
             $message->from($from, $name)->to($to)->subject($subject);
@@ -89,11 +90,11 @@ protected function sendEmailConfirmationTo($user)
 public function confirmEmail($token)
     {
         $user = User::where('activation_token', $token)->firstOrFail();
-
+        error_log($user,3,"/tmp/xinjiahui.log");
         $user->activated = true;
         $user->activation_token = null;
         $user->save();
-
+         
         Auth::login($user);
         session()->flash('success', '恭喜你，激活成功！');
         return redirect()->route('users.show', [$user]);
